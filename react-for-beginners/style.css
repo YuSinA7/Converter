@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Vujahday+Script&display=swap');
+
+*{
+    font-family: 'Libre Baskerville', serif;
+}
+
+body {
+    font-family: 'Playfair Display', serif;
+    text-align:center;
+    font-size:19px;
+    background-color:#fff;
+}
+
+#root {
+    width:700px;
+    height:50vh;
+    background:rgb(255, 253, 234);
+    margin:0 auto;
+    padding:100px;
+    border:1px dashed #333;
+}
+
+h1 {
+    margin:20px auto 50px auto;
+
+}
+
+select {
+    
+    display:block;
+    margin:0 auto;
+    width:400px;
+    height:35px;
+    text-align:center;
+    font-size:18px;
+    margin-bottom:30px;
+}
+
+input {
+    width:200px;
+    height:30px;
+    font-size:18px;
+    margin:5px 0;
+    padding-right:10px;
+    border:none;
+    border-bottom:1px solid #333;
+    text-align:right;
+}
+
+label {
+    font-size:20px;
+    margin-right:10px;
+}
+
+button {
+    margin-right:10px;
+    margin-top:30px;
+    font-size:18px;
+    padding:10px;
+    background:#fff;
+    border:none;
+    border-radius:10px;
+    border:1px solid #333;
+    
+
+}
